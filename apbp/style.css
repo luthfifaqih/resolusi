@@ -1,0 +1,110 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0aaa5f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 42px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #70f5b7;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.user {
+  float: right;
+}
+.nama {
+  float: right;
+  padding: 10px 10px 10px 42px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.container {
+  display: grid;
+  grid-template-columns: 66% auto;
+  padding: 4em 1em;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+button,
+button[type="submit"] {
+  width: 10%;
+  background-color: #45bf4d;
+  color: white;
+  padding: 15px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0ed318;
+}
+input {
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+select {
+  width: 20%;
+  height: 39px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.typing > * {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 1s steps(23);
+}
+@keyframes typingAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

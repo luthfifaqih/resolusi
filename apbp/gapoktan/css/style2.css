@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+}
+table {
+  font-family: sans-serif;
+  color: #444;
+  border-collapse: collapse;
+  width: 100%;
+  border: 0px solid #f2f5f7;
+}
+
+.table tr th {
+  background: #aaacad;
+  color: #fff;
+  font-weight: normal;
+}
+
+.table,
+th,
+td {
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  float: left;
+  background: #45bf4d;
+  padding: 10px 15px;
+  color: #111111;
+  border-radius: 4px;
+  margin-right: 10px;
+  border: none;
+}
+button:hover {
+  background-color: #0ed318;
+}
+div {
+  font-family: sans-serif;
+  color: #393b3b;
+}
+.form {
+  width: 500px;
+}
+
+.search {
+  position: relative;
+  left: 40%;
+  padding: 8px 15px;
+  background: rgba(50, 50, 50, 0.2);
+  border: 0px solid #dbdbdb;
+}
+
+.search form {
+  position: right;
+  height: 100px;
+  width: 100px;
+  margin-left: -50px;
+  left: 50%;
+}
+
+.search form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px 20px;
+  padding-left: 35px;
+  outline: none;
+  border: 1px soid rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  position: relative;
+  padding: 6px 15px;
+  left: 40%;
+  border: 2px solid #53bd84;
+  background-color: #53bd84;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fafafa;
+  color: #207cca;
+  cursor: pointer;
+}

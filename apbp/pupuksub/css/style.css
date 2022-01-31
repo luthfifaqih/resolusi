@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+}
+form {
+	width: auto;
+	border: 0px solid #ccc;
+	padding: 50px;
+	background: #ffffff;
+	border-radius: 5px;
+}
+button {
+	float: center;
+	background: #01AF2C;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+label {
+	color: rgb(19, 19, 19);
+	font-size: 18px;
+	padding: 10px;
+}
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+select{
+    display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+fieldset{
+	border-radius: 10px;
+	border-left: -300px;
+	border-right: -300px;
+}
+.container{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 40px;
+}
